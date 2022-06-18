@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--MAXIMILIANO DIAZ CLEMENTE-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\PC\OneDrive\Documentos\EmpezandoAProgramar\Mis Practicas JS\repositorio\style.css">
+        <title>Cadenas</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="../index.html">Pagina de inicio</a></li>
+        <li><a href="../objetos.html">Tema 1:Objetos</a></li>
+        <li><a href="../eventos.html">Tema 2:Eventos</a></li>
+        <li><a href="../cadenas.html">Tema 3:Cadenas</a></li>
+        <li><a href="../bucles.html">Tema 4:Bucles</a></li>
+    </ul>
+<h2>Bucles en JS</h2>
+<p id="demo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+<p>Como se hace?</p>
+<p>const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;</p>
+
+
+</body>
+</html>
